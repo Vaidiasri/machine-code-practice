@@ -2,6 +2,7 @@ import Accordion from "./componets/Accordion"
 import Counter from "./componets/Counter"
 import Guess from "./componets/Guess"
 import Image from "./componets/Image"
+import StringTransfromers from "./componets/StringTransfromers"
 import TelephoneFormatter from "./componets/TelephoneFormatter"
 import StarRating from "./hook/StarRating"
 import "./index.css"
@@ -16,7 +17,8 @@ function App() {
    <div className="App">
     
 {/* <StarRating value={2} total={5}></StarRating> */}
-<TelephoneFormatter/>
+{/* <TelephoneFormatter/> */}
+<StringTransfromers/>
    </div>
 
    </>
