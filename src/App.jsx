@@ -7,6 +7,7 @@ import TelephoneFormatter from "./componets/TelephoneFormatter"
 import StarRating from "./hook/StarRating"
 import Stepper from "./componets/Steper"
 import "./index.css"
+import Calculator from "./componets/Calculator"
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
 {/* <StarRating value={2} total={5}></StarRating> */}
 {/* <TelephoneFormatter/> */}
 {/* <StringTransfromers/> */}
-<Stepper/>
+{/* <Stepper/> */}
+<Calculator/>
    </div>
 
    </>
