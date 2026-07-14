@@ -8,6 +8,7 @@ import StarRating from "./hook/StarRating"
 import Stepper from "./componets/Steper"
 import "./index.css"
 import Calculator from "./componets/Calculator"
+import Traffic from "./componets/Traffic"
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
 {/* <TelephoneFormatter/> */}
 {/* <StringTransfromers/> */}
 {/* <Stepper/> */}
-<Calculator/>
+{/* <Calculator/> */}
+<Traffic/>
    </div>
 
    </>
