@@ -9,6 +9,7 @@ import Stepper from "./componets/Steper"
 import "./index.css"
 import Calculator from "./componets/Calculator"
 import Traffic from "./componets/Traffic"
+import ToastPopUp from "./componets/ToastPopup"
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
 {/* <StringTransfromers/> */}
 {/* <Stepper/> */}
 {/* <Calculator/> */}
-<Traffic/>
+{/* <Traffic/> */}
+<ToastPopUp/>
    </div>
 
    </>
