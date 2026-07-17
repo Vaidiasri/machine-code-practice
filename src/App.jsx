@@ -10,6 +10,7 @@ import "./index.css"
 import Calculator from "./componets/Calculator"
 import Traffic from "./componets/Traffic"
 import ToastPopUp from "./componets/ToastPopup"
+import Modal from "./componets/Modal"
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
 {/* <Stepper/> */}
 {/* <Calculator/> */}
 {/* <Traffic/> */}
-<ToastPopUp/>
+{/* <ToastPopUp/> */}
+<Modal/>
    </div>
 
    </>
