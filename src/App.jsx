@@ -11,6 +11,7 @@ import Calculator from "./componets/Calculator"
 import Traffic from "./componets/Traffic"
 import ToastPopUp from "./componets/ToastPopup"
 import Modal from "./componets/Modal"
+import PasswordStrength from "./componets/PasswordStrenght"
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
 {/* <Calculator/> */}
 {/* <Traffic/> */}
 {/* <ToastPopUp/> */}
-<Modal/>
+{/* <Modal/> */}
+<PasswordStrength/>
    </div>
 
    </>
