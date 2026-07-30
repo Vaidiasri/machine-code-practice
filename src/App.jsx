@@ -12,6 +12,7 @@ import Traffic from "./componets/Traffic"
 import ToastPopUp from "./componets/ToastPopup"
 import Modal from "./componets/Modal"
 import PasswordStrength from "./componets/PasswordStrenght"
+import GridLight from "./componets/GridLight"
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
 {/* <Traffic/> */}
 {/* <ToastPopUp/> */}
 {/* <Modal/> */}
-<PasswordStrength/>
+{/* <PasswordStrength/> */}
+<GridLight/>
    </div>
 
    </>
