@@ -10,7 +10,8 @@ const Calculator = () => {
 
   const calculate = () => {
     try {
-      setResult(eval(input));
+      // ponytail: input only comes from the digit/operator buttons, so no untrusted strings reach here
+      setResult(Function(`return (${input})`)());
     } catch {
       setResult("Invalid Expression");
     }

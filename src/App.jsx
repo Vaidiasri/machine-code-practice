@@ -13,6 +13,7 @@ import ToastPopUp from "./componets/ToastPopup"
 import Modal from "./componets/Modal"
 import PasswordStrength from "./componets/PasswordStrenght"
 import GridLight from "./componets/GridLight"
+import ColumnTable from "./componets/ColumnTable"
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
 {/* <ToastPopUp/> */}
 {/* <Modal/> */}
 {/* <PasswordStrength/> */}
-<GridLight/>
+{/* <GridLight/> */}
+<ColumnTable/>
    </div>
 
    </>
